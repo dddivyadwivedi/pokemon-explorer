@@ -1,0 +1,22 @@
+{
+    "sourceFile": "app/globals.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1740894664792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740899955492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-@import \"tailwindcss\";\n @tailwind base;\n @tailwind components;\n @tailwind utilities;\n \n"
+                }
+            ],
+            "date": 1740894664792,
+            "name": "Commit-0",
+            "content": "@import \"tailwindcss\";\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n:root {\n  --background: #ffffff;\n  --foreground: #171717;\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0a0a0a;\n    --foreground: #ededed;\n  }\n}\n\nbody {\n  color: var(--foreground);\n  background: var(--background);\n  font-family: Arial, Helvetica, sans-serif;\n}\n"
+        }
+    ]
+}

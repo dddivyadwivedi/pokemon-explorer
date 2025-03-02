@@ -1,0 +1,18 @@
+{
+    "sourceFile": "app/components/Navbar/Navbar.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1740911878412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1740911878412,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport Link from \"next/link\";\r\n\r\nconst Navbar: React.FC = () => {\r\n  return (\r\n    <nav className=\"bg-red-600 text-white shadow-md\">\r\n      <div className=\"container mx-auto px-4 py-3 flex justify-between items-center\">\r\n        <Link href=\"/\">\r\n          <div className=\"flex items-center cursor-pointer\">\r\n            <span className=\"font-bold text-xl md:text-2xl\">\r\n              Pokemon Explorer\r\n            </span>\r\n          </div>\r\n        </Link>\r\n        <div>\r\n          <Link href=\"/\" className=\"hover:underline\">\r\n            Home\r\n          </Link>\r\n        </div>\r\n      </div>\r\n    </nav>\r\n  );\r\n};\r\n\r\nexport default Navbar;\r\n"
+        }
+    ]
+}

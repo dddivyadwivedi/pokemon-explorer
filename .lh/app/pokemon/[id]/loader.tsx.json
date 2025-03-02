@@ -1,0 +1,18 @@
+{
+    "sourceFile": "app/pokemon/[id]/loader.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1740914280085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1740914280085,
+            "name": "Commit-0",
+            "content": "import Loader from \"@/app/components/Loader/loader\";\r\n\r\nconst Loading: React.FC = async () => {\r\n  return <Loader />;\r\n};\r\n\r\nexport default Loading;\r\n"
+        }
+    ]
+}
